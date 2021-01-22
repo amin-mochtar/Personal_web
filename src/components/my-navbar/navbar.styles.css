@@ -1,5 +1,5 @@
 .logo {
-    width: 65%;
+    width: 69%;
   }
   
   .nav-theme {
@@ -10,6 +10,10 @@
   .animate-navbar {
     box-shadow: 1px 1px 1px #222;
     animation: moveDown 0.5s ease-in-out;
+  }
+  .justice {
+    font-size: 14px;
+    /* margin-top: 0; */
   }
   
 
