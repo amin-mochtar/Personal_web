@@ -1,7 +1,7 @@
 import React from "react";
 import { Row, Container, Col, Image, Button } from "react-bootstrap";
 import Profilepic from "../../assets/img/profile/foto-profile.jpg";
-import Divider from "../../components/divider/divider.component"
+// import Divider from "../../components/divider/divider.component"
 import "./about.styles.css";
 
 const about = () => {
@@ -53,7 +53,7 @@ const about = () => {
                   </div>
                   <div>
                     <a
-                      href="https://drive.google.com/file/d/1a-9OV4sYOx2jGPr8fFhBZu-UZvPtuQx7/view?usp=sharing"
+                      href="https://drive.google.com/drive/folders/1P0UJAra8gNjb38J34YB7-w-ZlRxhS3mv?usp=sharing"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -78,7 +78,7 @@ const about = () => {
             </Col>
           </Row>
         </Container>
-        <Divider />
+        {/* <Divider /> */}
       </div>
     </div>
   );

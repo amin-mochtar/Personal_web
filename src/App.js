@@ -10,6 +10,8 @@ import AboutMe from "./pages/about/about.component";
 import Skills from "./pages/skills/skills.component";
 import TimeLine from "./components/projects-timeline/project-timeline.component";
 import Experience from "./pages/experience/experience.component";
+import ContactForm from "./pages/contact/contact.component";
+import FooterPanel from "./components/footer/footer2.component";
 import { Container } from "react-bootstrap";
 
 const App = () => {
@@ -55,6 +57,15 @@ const App = () => {
           <TimeLine />
         </Slide>
       </Container>
+      <Container className="container-box rounded">
+        <Fade duration={500}>
+          <hr />
+          <ContactForm />
+        </Fade>
+      </Container>
+
+      <hr />
+      <FooterPanel />
     </div>
   );
 };
