@@ -4,12 +4,12 @@ import slide1 from "../../assets/img/carousal/slide1.webp"
 import slide2 from "../../assets/img/carousal/slide2.webp"
 import slide3 from "../../assets/img/carousal/slide3.webp"
 import "./Carousel.styles.css"
-import Divider from "../divider/divider.component"
+// import Divider from "../divider/divider.component"
 
 const MyCarousel = () => {
   return (
     <div id="home">
-      <Carousel controls={false} indicators={false} interval={2600} pause={false}>
+      <Carousel controls={false} indicators={true} interval={2600} pause={false}>
         <Carousel.Item>
           <img
             className="d-block w-100 slider"
@@ -42,7 +42,7 @@ const MyCarousel = () => {
           </Carousel.Caption> */}
         </Carousel.Item>
       </Carousel>
-      <Divider />
+      {/* <Divider /> */}
     </div>
   );
 };
