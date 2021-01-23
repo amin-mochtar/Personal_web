@@ -2,7 +2,13 @@ import React from "react";
 import Typewriter from "typewriter-effect";
 import styled from "styled-components";
 
-const MyTitle = styled`
+const MyTitle = styled.h1`
+  position: absolute;
+  width: 100%;
+  top: 22rem;
+  z-index: 1;
+  margin-top: -125px;
+  text-align: center;
   strong {
     font-size: 1.25em;
   }
@@ -41,7 +47,7 @@ const Title = () => (
               strings: ["Web Developer", "Mobile Developer", "Teacher"],
               autoStart: true,
               loop: true,
-              delay: 50
+              delay: 50,
             }}
           />
         </div>
