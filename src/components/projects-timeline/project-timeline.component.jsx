@@ -58,10 +58,10 @@ const TimeLine = () => {
 
                     <Accordion.Collapse eventKey="0" className="text-left">
                       <Card.Body>
-                        <strong>Description:</strong> Projek Grup berupa
+                        <strong>Description:</strong> Grup project berupa
                         aplikasi mobile yg digunakan untuk mencari dan berbagi
-                        resep membuat plan menu masakan kita setiap harinya,
-                        disini saya berperan sebagi frontend
+                        resep, memfavoritkan resep, dan membuat plan menu masakan kita setiap harinya.
+                        pada project ini saya berperan sebagi frontend
                         <hr />
                         <strong>Features:</strong>
                         <ul className="list-styles pt-1">
@@ -961,11 +961,11 @@ const TimeLine = () => {
 
                     <Accordion.Collapse eventKey="0" className="text-left">
                       <Card.Body>
-                        <strong>Description:</strong> Kalkulator
+                        <strong>Description:</strong> Calkulator
                         <hr />
                         <strong>Features:</strong>
                         <ul className="list-styles pt-1">
-                          <li>Kalkulator web</li>
+                          <li>Web Calkulator</li>
 
                           <hr />
                         </ul>

@@ -27,8 +27,7 @@ const about = () => {
               <Row className=" align-items-start pt-5 my-details rounded">
                 Hai perkenalkan nama saya -<strong>Amin Mochtar Rosydi</strong>
                 <br />
-                <br /> saat ini saya tinggal di kota Surakarta, Jawa Tengah
-                <br /> dan berusia 21 tahun.
+                <br /> saat ini saya tinggal di kota Surakarta, Jawa Tengah.
                 <br /> Saya adalah fresh graduate Fullstack Javascript Developer
                 berminat pada Frontend maupun Backend.
                 <br /> Background saya lulusan dari Hacktiv8 Jakarta (Dec 2020),
