@@ -1,6 +1,7 @@
 import React from "react";
 import { Row, Container, Col, Image, Button } from "react-bootstrap";
 import Profilepic from "../../assets/img/profile/foto-profile.jpg";
+import Divider from "../../components/divider/divider.component"
 import "./about.styles.css";
 
 const about = () => {
@@ -23,13 +24,13 @@ const about = () => {
             </Col>
             {/* about me description */}
             <Col className="aboutMe">
-              <Row className=" align-items-start p-2 my-details rounded">
-                Hai perkenalkan nama saya <strong> Amin Mochtar Rosydi </strong>
+              <Row className=" align-items-start pt-5 my-details rounded">
+                Hai perkenalkan nama saya -<strong>Amin Mochtar Rosydi</strong>
                 <br />
                 <br /> saat ini saya tinggal di kota Surakarta, Jawa Tengah
                 <br /> dan berusia 21 tahun.
                 <br /> Saya adalah fresh graduate Fullstack Javascript Developer
-                yang lebih berminat pada front-end developer.
+                berminat pada Frontend maupun Backend.
                 <br /> Background saya lulusan dari Hacktiv8 Jakarta (Dec 2020),
                 disana saya mengikuti 2 kelas yaitu kelas Basic yang mempelajari
                 basic HTML, CSS, JS dan bekerja dengan github,
@@ -41,10 +42,10 @@ const about = () => {
                 (2017-2020) disana saya aktif dalam organisasi kerohanian Islam
                 kampus, dan sempat menjabat sebagi ketua umum untuk 1 periode.
               </Row>
-              <Row className=" align-items-start p-2 my-details rounded">
+              <Row className=" align-items-start pb-4 my-details rounded">
                 <Col className="d-flex justify-content-center flex-wrap">
                   <div>
-                    <a href="" target="blank" rel="noopener noreferrer">
+                    <a href="#contact" rel="noopener noreferrer">
                       <Button className="m-2" variant="outline-primary">
                         Contact
                       </Button>
@@ -52,7 +53,7 @@ const about = () => {
                   </div>
                   <div>
                     <a
-                      href="https://drive.google.com/file/d/1Snbq3x4Itk_ZN4c8J96aNdp4SunXR08Y/view?usp=sharing"
+                      href="https://drive.google.com/file/d/1a-9OV4sYOx2jGPr8fFhBZu-UZvPtuQx7/view?usp=sharing"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -63,7 +64,7 @@ const about = () => {
                   </div>
                   <div>
                     <a
-                      href="https://github.com/akjha96"
+                      href="https://github.com/amin-mochtar"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -72,22 +73,12 @@ const about = () => {
                       </Button>
                     </a>
                   </div>
-                  <div>
-                    <a
-                      href="https://www.linkedin.com/in/anand-kumar-jha-745798a4/"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <Button className="m-2" variant="outline-info">
-                        LinkedIn
-                      </Button>
-                    </a>
-                  </div>
                 </Col>
               </Row>
             </Col>
           </Row>
         </Container>
+        <Divider />
       </div>
     </div>
   );

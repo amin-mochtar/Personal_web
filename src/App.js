@@ -1,12 +1,15 @@
-import React from 'react'
-import {Fade, Slide} from "react-reveal";
+import React from "react";
+import { Fade, Slide } from "react-reveal";
 // import ContactForm from "./pages/contact-form/contact-form.component";
 import { Parallax } from "react-parallax";
-import 'bootstrap/dist/css/bootstrap.min.css';
-import Navbar from "./components/my-navbar/navbar.component"
-import Carousel from "./components/my-carusol /Carousel.component"
+import "bootstrap/dist/css/bootstrap.min.css";
+import Navbar from "./components/my-navbar/navbar.component";
+import Carousel from "./components/my-carusol /Carousel.component";
 import MyTitleMessage from "./components/title-message/title-message.component";
-import AboutMe from "./pages/about/about.component"
+import AboutMe from "./pages/about/about.component";
+import Skills from "./pages/skills/skills.component";
+import TimeLine from "./components/projects-timeline/project-timeline.component";
+import Experience from "./pages/experience/experience.component";
 import { Container } from "react-bootstrap";
 
 const App = () => {
@@ -31,8 +34,29 @@ const App = () => {
           </div>
         </Parallax>
       </div>
-    </div>
-  )
-}
+      <Container className="container-box rounded">
+        <Slide bottom duration={500}>
+          <hr />
+          <Skills />
+        </Slide>
+      </Container>
+      <div>
+        <Container className="container-box rounded">
+          <Fade duration={500}>
+            <hr />
 
-export default App
+            <Experience />
+          </Fade>
+        </Container>
+      </div>
+      <Container className="container-box rounded">
+        <Slide bottom duration={500}>
+          <hr />
+          <TimeLine />
+        </Slide>
+      </Container>
+    </div>
+  );
+};
+
+export default App;

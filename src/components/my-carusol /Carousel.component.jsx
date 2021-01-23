@@ -9,7 +9,7 @@ import Divider from "../divider/divider.component"
 const MyCarousel = () => {
   return (
     <div id="home">
-      <Carousel controls={false} indicators={true} interval={2600} pause={false}>
+      <Carousel controls={false} indicators={false} interval={2600} pause={false}>
         <Carousel.Item>
           <img
             className="d-block w-100 slider"

@@ -8,7 +8,7 @@ const MyScroll = styled.div`
   display: flex;
   width: 100%;
   justify-content: center;
-  background-color: transparent;
+  background-color: gray;
   font-weight: bold;
   text-shadow: 1px 1px #45a29e;
   color: #fff;
