@@ -942,7 +942,7 @@ const TimeLine = () => {
           </ImageEvent>
           {/* Project: Dark Ligth Theme */}
           <ImageEvent
-            date=""
+            date="19/05/2020"
             className="text-center"
             text="Calculator"
             src={Kalkulator}
