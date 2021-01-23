@@ -942,10 +942,11 @@ const TimeLine = () => {
           </ImageEvent>
           {/* Project: Dark Ligth Theme */}
           <ImageEvent
+            date=""
             className="text-center"
-            text="Kalkulator"
+            text="Calculator"
             src={Kalkulator}
-            alt="Kalkulator"
+            alt="Calculator"
           >
             <div className="d-flex justify-content-between flex-column mt-1">
               <div>
@@ -961,11 +962,11 @@ const TimeLine = () => {
 
                     <Accordion.Collapse eventKey="0" className="text-left">
                       <Card.Body>
-                        <strong>Description:</strong> Calkulator
+                        <strong>Description:</strong> Calculator
                         <hr />
                         <strong>Features:</strong>
                         <ul className="list-styles pt-1">
-                          <li>Web Calkulator</li>
+                          <li>Web Calculator</li>
 
                           <hr />
                         </ul>
