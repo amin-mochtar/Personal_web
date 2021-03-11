@@ -5,7 +5,7 @@ import L_HEROKU from "../../../assets/img/skills/heroku.svg";
 import L_EXPRESS from "../../../assets/img/skills/express.svg";
 import L_POSTGRESQL from "../../../assets/img/skills/postgresql.svg";
 import L_CSS3 from "../../../assets/img/skills/css3.svg";
-import L_GITHUB_PAGES from "../../../assets/img/skills/github.svg";
+// import L_GITHUB_PAGES from "../../../assets/img/skills/github.svg";
 
 function DetailMovieApp(props) {
     return (

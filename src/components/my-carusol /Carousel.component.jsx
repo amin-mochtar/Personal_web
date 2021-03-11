@@ -1,10 +1,8 @@
 import React from "react";
 import Carousel from 'react-bootstrap/Carousel'
-import slide1 from "../../assets/img/carousal/slide1.webp"
 import slide2 from "../../assets/img/carousal/slide2.webp"
 import slide3 from "../../assets/img/carousal/slide3.webp"
 import "./Carousel.styles.css"
-// import Divider from "../divider/divider.component"
 
 const MyCarousel = () => {
   return (
@@ -18,7 +16,7 @@ const MyCarousel = () => {
           />
           {/* <Carousel.Caption>
             <h3>First slide label</h3>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            <p>lorem teks</p>
           </Carousel.Caption> */}
         </Carousel.Item>
         <Carousel.Item>
@@ -30,7 +28,7 @@ const MyCarousel = () => {
           {/* <Carousel.Caption>
             <h3>Third slide label</h3>
             <p>
-              Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+              teks pesan message
             </p>
           </Carousel.Caption> */}
         </Carousel.Item>

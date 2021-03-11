@@ -78,8 +78,8 @@ function ProjectSlider() {
                         <img style={{padding: 15, borderRadius: 20}} src={Mealo} alt="profileImage"/>
                     </div>
                     <ul className="social-icons">
-                        <li><a href="https://youtu.be/hWg-bm4WrIY" target="_blank"><i className="fa fa-film">SeeLive</i></a></li>
-                        <li><a href="https://github.com/mealo-team" target="_blank"><i className="fa fa-github">Code</i></a></li>
+                        <li><a href="https://youtu.be/hWg-bm4WrIY" rel="noreferrer" target="_blank"><i className="fa fa-film">SeeLive</i></a></li>
+                        <li><a href="https://github.com/mealo-team" rel="noreferrer" target="_blank"><i className="fa fa-github">Code</i></a></li>
                     </ul>
                     <div className="details">
                         <h2>Mealo App<Button variant="primary" onClick={() => setModalShow(true)}>
@@ -94,11 +94,11 @@ function ProjectSlider() {
             <div className="project-card-wrapper">
                 <div className="project-card magic-shadow-sm">
                     <div className="project-card-image">
-                        <img style={{padding: 15, borderRadius: 20}} src={MovieApp} />
+                        <img style={{padding: 15, borderRadius: 20}} src={MovieApp} alt="movieApp" />
                     </div>
                     <ul className="social-icons">
-                        <li><a href="#"><i className="fa fa-film">SeeLive</i></a></li>
-                        <li><a href="#"><i className="fa fa-github">Code</i></a></li>
+                        <li><a href="https://aminwebmovie.netlify.app/"><i className="fa fa-film">SeeLive</i></a></li>
+                        <li><a href="https://github.com/amin-mochtar/react-challenge" rel="noreferrer" target="_blank"><i className="fa fa-github">Code</i></a></li>
                     </ul>
                     <div className="details">
                         <h2>Movie App<Button variant="primary" onClick={() => setShowMovieApp(true)}>
@@ -113,11 +113,11 @@ function ProjectSlider() {
             <div className="project-card-wrapper">
                 <div className="project-card">
                     <div className="project-card-image">
-                        <img style={{padding: 15, borderRadius: 20}} src={TRIVIA} />
+                        <img style={{padding: 15, borderRadius: 20}} src={TRIVIA} alt="trivia"/>
                     </div>
                     <ul className="social-icons">
-                        <li><a href="https://github.com/Team-10-EindhovenHacktiv8" target="_blank"><i className="fa fa-film">SeeLive</i></a></li>
-                        <li><a href="https://github.com/Team-10-EindhovenHacktiv8" target="_blank"><i className="fa fa-github">Code</i></a></li>
+                        <li><a href="https://github.com/Team-10-EindhovenHacktiv8" rel="noreferrer" target="_blank"><i className="fa fa-film">SeeLive</i></a></li>
+                        <li><a href="https://github.com/Team-10-EindhovenHacktiv8" rel="noreferrer" target="_blank"><i className="fa fa-github">Code</i></a></li>
                     </ul>
                     <div className="details">
                     <h2>Trivia Web Quiz<Button variant="primary" onClick={() => setShowTrivia(true)}>
@@ -132,11 +132,11 @@ function ProjectSlider() {
             <div className="project-card-wrapper">
                 <div className="project-card">
                     <div className="project-card-image">
-                        <img style={{padding: 15, borderRadius: 20}} src={EcommerceAdmin} />
+                        <img style={{padding: 15, borderRadius: 20}} src={EcommerceAdmin} alt="adminshop"/>
                     </div>
                     <ul className="social-icons">
-                        <li><a href="https://e-commerce-123-94109.web.app/login" target="blank"><i className="fa fa-film">SeeLive</i></a></li>
-                        <li><a href="https://github.com/amin-mochtar/ecommerce_client_cms.git" target="blank"><i className="fa fa-github">Code</i></a></li>
+                        <li><a href="https://e-commerce-123-94109.web.app/login" rel="noreferrer" target="_blank"><i className="fa fa-film">SeeLive</i></a></li>
+                        <li><a href="https://github.com/amin-mochtar/ecommerce_client_cms.git" rel="noreferrer" target="_blank"><i className="fa fa-github">Code</i></a></li>
                     </ul>
                     <div className="details">
                     <h2>ECommerce-admin<Button variant="primary" onClick={() => setShowAdmin(true)}>
@@ -151,11 +151,11 @@ function ProjectSlider() {
             <div className="project-card-wrapper">
                 <div className="project-card">
                     <div className="project-card-image">
-                        <img style={{padding: 15, borderRadius: 20}} src={CustomerShop} />
+                        <img style={{padding: 15, borderRadius: 20}} src={CustomerShop} alt="cusShop"/>
                     </div>
                     <ul className="social-icons">
-                        <li><a href="https://ecommerce-cus.web.app/" target="blank"><i className="fa fa-film">SeeLive</i></a></li>
-                        <li><a href="https://github.com/amin-mochtar/ecommerce_client_cms" target="blank"><i className="fa fa-github">Code</i></a></li>
+                        <li><a href="https://ecommerce-cus.web.app/" rel="noreferrer" target="_blank"><i className="fa fa-film">SeeLive</i></a></li>
+                        <li><a href="https://github.com/amin-mochtar/ecommerce_client_cms" rel="noreferrer" target="_blank"><i className="fa fa-github">Code</i></a></li>
                     </ul>
                     <div className="details">
                     <h2>E-commerce Customer<Button variant="primary" onClick={() => setShowCustomer(true)}>
@@ -170,10 +170,10 @@ function ProjectSlider() {
             <div className="project-card-wrapper">
                 <div className="project-card">
                     <div className="project-card-image">
-                        <img style={{padding: 15, borderRadius: 20}} src={Todo} />
+                        <img style={{padding: 15, borderRadius: 20}} src={Todo} alt="todo"/>
                     </div>
                     <ul className="social-icons">
-                        <li><a href="https://github.com/amin-mochtar/fancy-todo" target="blank"><i className="fa fa-github">Code</i></a></li>
+                        <li><a href="https://github.com/amin-mochtar/fancy-todo" rel="noreferrer" target="_blank"><i className="fa fa-github">Code</i></a></li>
                     </ul>
                     <div className="details">
                     <h2>Todo App<Button variant="primary" onClick={() => setShowTodo(true)}>
@@ -188,11 +188,11 @@ function ProjectSlider() {
             <div className="project-card-wrapper">
                 <div className="project-card">
                     <div className="project-card-image">
-                        <img style={{padding: 15, borderRadius: 20}} src={ThemeWeb} />
+                        <img style={{padding: 15, borderRadius: 20}} src={ThemeWeb} alt="darktheme"/>
                     </div>
                     <ul className="social-icons">
-                        <li><a href="https://amin-mochtar.github.io/mengubah-tema.io/index.html" target="_blank"><i className="fa fa-film">SeeLive</i></a></li>
-                        <li><a href="https://github.com/amin-mochtar/" target="blank"><i className="fa fa-github">Code</i></a></li>
+                        <li><a href="https://amin-mochtar.github.io/mengubah-tema.io/index.html" rel="noreferrer" target="_blank"><i className="fa fa-film">SeeLive</i></a></li>
+                        <li><a href="https://github.com/amin-mochtar/" rel="noreferrer" target="_blank"><i className="fa fa-github">Code</i></a></li>
                     </ul>
                     <div className="details">
                     <h2>Theme Web<Button variant="primary" onClick={() => setShowThemeweb(true)}>
@@ -207,11 +207,11 @@ function ProjectSlider() {
             <div className="project-card-wrapper">
                 <div className="project-card">
                     <div className="project-card-image">
-                        <img style={{padding: 15, borderRadius: 20}} src={Kalkulator} />
+                        <img style={{padding: 15, borderRadius: 20}} src={Kalkulator} alt="kalkulator"/>
                     </div>
                     <ul className="social-icons">
-                        <li><a href="https://amin-mochtar.github.io/" target="_blank"><i className="fa fa-film">SeeLive</i></a></li>
-                        <li><a href="https://github.com/amin-mochtar/" target="_blank"><i className="fa fa-github">Code</i></a></li>
+                        <li><a href="https://amin-mochtar.github.io/" rel="noreferrer" target="_blank"><i className="fa fa-film">SeeLive</i></a></li>
+                        <li><a href="https://github.com/amin-mochtar/" rel="noreferrer" target="_blank"><i className="fa fa-github">Code</i></a></li>
                     </ul>
                     <div className="details">
                     <h2>Kalkulator<Button variant="primary" onClick={() => setShowKalkulator(true)}>

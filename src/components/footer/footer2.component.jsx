@@ -37,7 +37,7 @@ const footer = () => {
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#">
+                                        <a href="wwww.google.com">
                                             <i class="fa fa-google-plus-square" aria-hidden="true"></i>
                                             <span>Google +</span>
                                         </a>
