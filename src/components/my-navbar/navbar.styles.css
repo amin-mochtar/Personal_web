@@ -10,7 +10,7 @@
   }
 
   .nav-theme-active {
-    background-color: rgb(45, 124, 173);
+    background-color: rgb(4, 44, 44);
     font-size: 20px;
     animation: moveDown 1.5s ease-in-out;
     justify-content: space-between;
