@@ -1,0 +1,49 @@
+.modal-container {
+    background-color: #ffffff29 !important;
+    font-family: 'Century Gothic',sans-serif;
+}
+.box-modal{
+    width: 100%;
+    background: rgba(5, 5, 5, 0.4);
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    color: white;
+    font-family: 'Century Gothic',sans-serif;
+  }
+  .box-modal h1{
+    font-size: 40px;
+    letter-spacing: 4px;
+    font-weight: 100;
+  }
+  .box-modal h5{
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-weight: 100;
+  }
+  .box-modal p{
+    text-align: justify;
+  }
+  ul{
+    margin: 0;
+    padding: 0;
+  }
+  .box-modal li{
+    display: inline-block;
+    margin: 6px;
+    list-style: none;
+  }
+
+  .box-modal li img{
+    width: 50px;
+  }
+  .box-modal li a{
+    color: white;
+    text-decoration: none;
+    font-size: 60px;
+    transition: all ease-in-out 250ms;
+  }
+  .box-modal li a:hover{
+    color: #b9b9b9;
+  }

@@ -15,7 +15,7 @@ const about = () => {
             <Col xs={12} md={6}>
               <Row className=" m-2 justify-content-center">
                 <Image
-                  className="justify-content-end profile"
+                  className="justify-content-end shadow-lg p-3 mb-5 bg-white rounded profile"
                   src={Profilepic}
                   thumbnail
                   fluid
@@ -23,13 +23,13 @@ const about = () => {
               </Row>
             </Col>
             {/* about me description */}
-            <Col className="aboutMe">
+            <Col className="aboutMe shadow-lg p-3 mb-5 bg-white rounded">
               <Row className=" align-items-start pt-5 my-details rounded">
                 Hai perkenalkan nama saya -<strong>Amin Mochtar Rosydi</strong>
                 <br />
                 <br /> saat ini saya tinggal di kota Surakarta, Jawa Tengah.
                 <br /> Saya adalah fresh graduate Fullstack Javascript Developer
-                berminat pada Frontend maupun Backend.
+                berminat pada Frontend maupun Backend. Saya mampu mengunakan React, Vuejs, dan Jquery untuk development FrontEnd Web dan Node.js untuk Backend, sedangkan untuk Mobile saya mampu menggunakan React Native <br />
                 <br /> Background saya lulusan dari Hacktiv8 Jakarta (Dec 2020),
                 disana saya mengikuti 2 kelas yaitu kelas Basic yang mempelajari
                 basic HTML, CSS, JS dan bekerja dengan github,
@@ -44,7 +44,7 @@ const about = () => {
               <Row className=" align-items-start pb-4 my-details rounded">
                 <Col className="d-flex justify-content-center flex-wrap">
                   <div>
-                    <a href="#contact" rel="noopener noreferrer">
+                    <a href="#footer" rel="noopener noreferrer">
                       <Button className="m-2" variant="outline-primary">
                         Contact
                       </Button>

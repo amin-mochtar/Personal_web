@@ -13,6 +13,25 @@ const Experience = () => {
       <Jumbotron className="jumbo-style">
         <Container>
           <Tilt options={{ max: 25 }}>
+          <Card>
+              <Card.Header as="h5" className="d-flex justify-content-center flex-wrap">
+                {/* <Card.Img variant="top" className="img-resize" src={L_ACCENTURE} alt="Accenture logo" /> */}
+              </Card.Header>
+              <Card.Body className="d-flex justify-content-center flex-column">
+                <div>
+                  <Card.Title className="text-center">Kominfo 1000 StartUp Digitals</Card.Title>
+                  <strong>as FrontEnd Enginer</strong>
+                </div>
+                <div>
+                  <Card.Text className="text-center style">
+                    <strong className="body-title-style ">created chat feature for the Pt.Deon website</strong>
+                    <br />
+                    <strong>Duration:</strong> 28 Januari 2021 - 02 Maret 2021
+                    <br/>
+                  </Card.Text>
+                </div>
+              </Card.Body>
+            </Card>
             <Card>
               <Card.Header as="h5" className="d-flex justify-content-center flex-wrap">
                 {/* <Card.Img variant="top" className="img-resize" src={L_ACCENTURE} alt="Accenture logo" /> */}

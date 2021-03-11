@@ -28,6 +28,17 @@ const MyTitle = styled.h1`
       letter-spacing: 1px;
     }
   }
+  @media (max-width:500px){
+    div{
+      .main {
+        font-size: 30px;
+        padding: 20px
+      }
+      .text {
+        font-size: 16px
+      }
+    }
+  }
 `;
 
 const Title = () => (

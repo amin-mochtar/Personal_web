@@ -15,7 +15,7 @@ const Skills = () => {
         <Row className="d-flex justify-content-around">
           {/* Frontend */}
           <Col md={4}>
-            <Card className="focus mt-2 mb-2">
+            <Card className="focus mt-2 shadow-lg p-3 mb-5 bg-white rounded ">
               <Card.Body>
                 {/* Frontend */}
                 <Card.Title className="text-center  card-title">Frontend</Card.Title>
@@ -35,7 +35,7 @@ const Skills = () => {
 
           {/* Backend */}
           <Col md={4}>
-            <Card className="focus mt-2 mb-2">
+            <Card className="focus mt-2 shadow-lg p-3 mb-5 bg-white rounded">
               <Card.Body>
                 <Card.Title className="text-center  card-title">Backend</Card.Title>
                 <hr />
@@ -52,7 +52,7 @@ const Skills = () => {
             </Card>
 
             {/* Hosting Platforms */}
-            <Card className="focus mt-2 mb-2 ">
+            <Card className="focus mt-2 shadow-lg p-3 mb-5 bg-white rounded">
               <Card.Body>
                 <Card.Title className="text-center  card-title">Hosting Platforms</Card.Title>
                 <hr />
@@ -71,7 +71,7 @@ const Skills = () => {
 
           {/* Programming Languages */}
           <Col md={4}>
-            <Card className="focus mt-2 mb-2">
+            <Card className="focus mt-2 shadow-lg p-3 mb-5 bg-white rounded">
               <Card.Body>
                 <Card.Title className="text-center  card-title">Programming Languages</Card.Title>
                 <hr />
@@ -89,7 +89,7 @@ const Skills = () => {
 
             {/* Database */}
 
-            <Card className="focus mt-2 mb-2">
+            <Card className="focus mt-2 shadow-lg p-3 mb-5 bg-white rounded">
               <Card.Body>
                 <Card.Title className="text-center  card-title">Database</Card.Title>
                 <hr />
@@ -106,7 +106,7 @@ const Skills = () => {
             </Card>
             {/* Version Control */}
 
-            <Card className="focus mt-2 mb-2">
+            <Card className="focus mt-2 shadow-lg p-3 mb-5 bg-white rounded">
               <Card.Body>
                 <Card.Title className="text-center  card-title">Version Control</Card.Title>
                 <hr />

@@ -9,24 +9,17 @@ import "./Carousel.styles.css"
 const MyCarousel = () => {
   return (
     <div id="home">
-      <Carousel controls={false} indicators={true} interval={2600} pause={false}>
+      <Carousel controls={false} indicators={true} interval={2600} pause={true}>
         <Carousel.Item>
           <img
             className="d-block w-100 slider"
-            src={slide1}
+            src={slide2}
             alt="First slide"
           />
           {/* <Carousel.Caption>
             <h3>First slide label</h3>
             <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
           </Carousel.Caption> */}
-        </Carousel.Item>
-        <Carousel.Item>
-          <img
-            className="d-block w-100 slider"
-            src={slide2}
-            alt="2nd slide"
-          />
         </Carousel.Item>
         <Carousel.Item>
           <img

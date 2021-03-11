@@ -3,18 +3,32 @@
   }
   
   .nav-theme {
-    background-color: #101018f8;
+    background-color: #10101800;
     font-size: 20px;
-  }
-  
-  .animate-navbar {
-    box-shadow: 1px 1px 1px #222;
     animation: moveDown 0.5s ease-in-out;
+    justify-content: space-between;
   }
-  .justice {
-    font-size: 14px;
-    /* margin-top: 0; */
+
+  .nav-theme-active {
+    background-color: rgb(45, 124, 173);
+    font-size: 20px;
+    animation: moveDown 1.5s ease-in-out;
+    justify-content: space-between;
   }
-  
+
+  .nav-link {
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+  }
+
+  .nav-link-active {
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+    color: black
+  }
 
   

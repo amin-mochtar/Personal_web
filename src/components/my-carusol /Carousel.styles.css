@@ -1,4 +1,11 @@
 .slider {
     height: 100vh;
     object-fit: cover;
+    /* opacity: .5; */
+}
+
+@media(max-width: 500px) {
+    .slider {
+        height: 80vh;
+    }
 }
