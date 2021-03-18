@@ -97,8 +97,9 @@ function ProjectSlider() {
                         <img style={{padding: 15, borderRadius: 20}} src={MovieApp} alt="movieApp" />
                     </div>
                     <ul className="social-icons">
-                        <li><a href="https://aminwebmovie.netlify.app/"><i className="fa fa-film">SeeLive</i></a></li>
-                        <li><a href="https://github.com/amin-mochtar/react-challenge" rel="noreferrer" target="_blank"><i className="fa fa-github">Code</i></a></li>
+                        <li><a rel="noreferrer" target="_blank" href="https://6052d96063ca2c64265fc5b2--movieappreactredux.netlify.app/"><i className="fa fa-film">with Redux</i></a></li>
+                        <li><a rel="noreferrer" target="_blank" href="https://6052cb032fb4e459c7a4856c--laughing-goldstine-c70ba3.netlify.app/"><i className="fa fa-film">With Context</i></a></li>
+                        {/* <li><a href="https://github.com/amin-mochtar/react-challenge" rel="noreferrer" target="_blank"><i className="fa fa-github">Code</i></a></li> */}
                     </ul>
                     <div className="details">
                         <h2>Movie App<Button variant="primary" onClick={() => setShowMovieApp(true)}>
