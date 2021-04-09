@@ -55,7 +55,7 @@ const footer = () => {
                 </footer>
                 <footer className="copyright">
                     <div>
-                        Copyright © 2021 .created by <a href="https://www.instagram.com/codersgyan/">Amin Mochtar</a>.
+                        Copyright © 2021 .created by <a href="https://www.instagram.com/">Amin Mochtar</a>.
                     </div>
                 </footer>
         </div>
